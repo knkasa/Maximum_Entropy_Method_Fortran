@@ -1,0 +1,8 @@
+#$  -N   Job
+#$ -q     medium*
+#$  -cwd
+#$ -pe openmpi*      64
+
+ mpirun    /home/knakatsu/research/maxent/a1.out
+
+
