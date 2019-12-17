@@ -1,1 +1,2 @@
 # Maximum_Entropy_Method_Fortran
+Maximum Entropy Method (MEM) written in Fortran.  Note the code assumes there are two functionals to be obtained at the end instead of one functional as normally done in classical MEM.  For this reason, we cannnot differentiate the free energy analytically by hand.  Therefore, we use a steepest gradient descent to extract the two functionals.  Run Model05.95 to obtain the final result.  
